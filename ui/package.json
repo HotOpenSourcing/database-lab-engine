@@ -7,7 +7,7 @@
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "start:ce": "pnpm --filter @postgres.ai/ce start",
+    "start:ce": "node init && pnpm --filter @postgres.ai/ce start",
     "lint": "pnpm -r lint",
     "test": "pnpm -r test"
   },

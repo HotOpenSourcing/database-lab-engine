@@ -2,7 +2,7 @@
   "name": "@postgres.ai/shared",
   "version": "4.2.0",
   "scripts": {
-    "build": "tsc -p tsconfig.build.json && node scripts/copy-assets.js",
+    "build": "node init && tsc -p tsconfig.build.json && node scripts/copy-assets.js",
     "pack": "node scripts/pack.js",
     "lint": "eslint --cache .",
     "test": "vitest run"
