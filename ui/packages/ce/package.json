@@ -42,8 +42,8 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
+    "start": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview",
     "test": "vitest run",
     "lint": "pnpm run lint:code && pnpm run lint:styles && pnpm run lint:spelling",

@@ -1,6 +1,5 @@
 .DS_Store
 .idea/
-.env
 
 engine/bin/
 engine/coverage.out
@@ -20,3 +19,5 @@ ui/packages/shared/dist/
 
 cve-reports/
 .trivycache/
+config.bat
+node_modules
